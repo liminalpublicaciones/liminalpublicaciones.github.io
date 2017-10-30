@@ -1,3 +1,5 @@
-body {
-
+.nav {
+    display: inline-grid;
+    grid-template-columns: 1000px;
+    grid-template-rows: 3fr;
 }
