@@ -5,30 +5,13 @@ body {
 
 .nav {
     font-family: Monospace;
-    font-size: 3m;
-    display: inline-grid;
+    display: grid;
     grid-area: nav;
     justify-items: right;
-    padding: 20px 0px 0px 200px;
+    padding: 45% 0% 0% 20%;
     grid-template-areas:
     "l i m i2 n a l2";
 }
-
-.content {
-    grid-area: content;
-    font-family: Monospace;
-    font-size: 1em;
-}
-
-.main {
-    display: grid;
-    grid-gap: 60px;
-    grid-template-rows: 30% 70%;
-    grid-template-areas:
-        "nav"
-	    "content";
-}
-
 .ltr {
     width: 50px;
     font-size: 3em;
@@ -61,3 +44,21 @@ body {
 .seven {
     grid-area: l2;
 }
+
+
+.content {
+    grid-area: content;
+    font-family: Monospace;
+    font-size: 1.5em;
+}
+
+.main {
+    display: grid;
+    grid-gap: 30px;
+    grid-template-rows: 3fr 1fr auto;
+    grid-template-areas:
+        "nav"
+	"...."
+	"content";
+}
+
