@@ -1,58 +1,63 @@
 body {
-    margin: 30px;
     width: 100%;
     height: 100%;
 }
 
 .nav {
+    font-family: Monospace;
+    font-size: 3m;
     display: inline-grid;
     grid-area: nav;
-    grid-template-areas: "l i m i n a l";
+    justify-items: right;
+    padding: 20px 0px 0px 200px;
+    grid-template-areas:
+    "l i m i2 n a l2";
 }
 
 .content {
     grid-area: content;
     font-family: Monospace;
-    font-size: 5em;
+    font-size: 1em;
 }
 
 .main {
     display: grid;
-    grid-gap: 100px;
+    grid-gap: 60px;
     grid-template-rows: 30% 70%;
     grid-template-areas:
         "nav"
 	    "content";
 }
 
-div {
-    font-size: 5em;
+.ltr {
+    width: 50px;
+    font-size: 3em;
 }
 
-.ltr1 {
+.one {
     grid-area: l;
 }
 
-.ltr2 {
+.two {
     grid-area: i;
 }
 
-.ltr3 {
+.three {
     grid-area: m;
 }
 
-.ltr4 {
-    grid-area: i;
+.four {
+    grid-area: i2;
 }
 
-.ltr5 {
+.five {
     grid-area: n;
 }
 
-.ltr6 {
+.six {
     grid-area: a;
 }
 
-.ltr7 {
-    grid-area: l;
+.seven {
+    grid-area: l2;
 }
