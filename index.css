@@ -71,7 +71,7 @@ body {
     border: none;
     display: block;
     padding-left: 25px;
-    overflow: scroll;
+    overflow: auto;
 }
 
 
