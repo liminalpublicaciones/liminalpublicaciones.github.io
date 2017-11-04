@@ -1,6 +1,7 @@
 body {
     width: !00%;
     height: 100%;
+    overflow: hidden;
 }
 
 
@@ -70,6 +71,7 @@ body {
     border: none;
     display: block;
     padding-left: 25px;
+    overflow: scroll;
 }
 
 
