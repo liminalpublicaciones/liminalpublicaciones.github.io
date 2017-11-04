@@ -13,7 +13,6 @@ body {
     "l i m i2 n a l2";
 }
 .ltr {
-    width: 50px;
     font-size: 3em;
 }
 
@@ -63,8 +62,22 @@ body {
 	"content";
 }
 
-iframe{
-    border:none;
-    width:400px;
-    display:block;
+iframe {
+    border: none;
+    display: block;
+}
+
+@media screen and (max-width: 500px){
+    .ltr {
+	font-size: 1.5em;
+    }
+    .nav {
+	padding: 20px 20px 20px 50px;
+    }
+}
+
+@media screen and (max-width: 1920px){
+    .nav {
+	justify-items: center;
+    }
 }
