@@ -50,6 +50,7 @@ body {
     grid-area: content;
     font-family: Monospace;
     font-size: 1.5em;
+    overflow-y: hidden;
 }
 
 .main {
@@ -65,7 +66,6 @@ body {
 iframe {
     border: none;
     display: block;
-    overflow-y: hidden;
 }
 
 @media screen and (max-width: 500px){
